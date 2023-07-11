@@ -163,6 +163,7 @@ body {
     padding: 85px 50px 55px 100px;
     height: 370px;
 }
+
 /* deal section */
 .deal-alltext {
     text-align: center;
@@ -196,18 +197,21 @@ body {
 .deal-img {
     width: 255px;
 }
+
 .instragram-section {
     margin-top: 120px;
     margin-bottom: 120px;
-  }
-  .instragram-title {
+}
+
+.instragram-title {
     color: #272727;
     text-align: center;
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 22px;
-  }
-  .instragram-description {
+}
+
+.instragram-description {
     color: rgba(39, 39, 39, 0.6);
     font-size: 17px;
     line-height: 30px;
@@ -215,13 +219,62 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 45px;
-  }
-  .instragram-img {
+}
+
+.instragram-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-  .instragram-img img {
+}
+
+.instragram-img img {
     width: 250px;
-  }
+}
+
+/* latest deals section */
+.latest-deals {
+    width: 1050px;
+    text-align: center;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.latest-deals-tittle {
+    color: #272727;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+.latest-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+.latest-deals input{
+    width: 500px;
+    height: 40px;
+    margin-right: 50px;
+    padding: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+
+}
