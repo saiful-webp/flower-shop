@@ -154,7 +154,6 @@ body {
     margin: 0 auto;
 }
 
-/* deal section */
 .deal-section {
     margin-top: 100px;
     align-items: center;
@@ -164,7 +163,7 @@ body {
     padding: 85px 50px 55px 100px;
     height: 370px;
 }
-
+/* deal section */
 .deal-alltext {
     text-align: center;
     padding-top: 25px;
@@ -197,3 +196,32 @@ body {
 .deal-img {
     width: 255px;
 }
+.instragram-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .instragram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 22px;
+  }
+  .instragram-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 17px;
+    line-height: 30px;
+    width: 590px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .instragram-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .instragram-img img {
+    width: 250px;
+  }
