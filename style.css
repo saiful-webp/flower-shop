@@ -276,5 +276,32 @@ body {
     font-size: 17px;
     border-radius: 8px;
     border: none;
-
+}
+/* footer section */
+.footer-section{
+    background-color: #111010;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 580px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.all-rights-reserved{
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
